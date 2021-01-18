@@ -39,7 +39,7 @@ optional arguments:
 ```
 - Output
 ```
-[+] You'll need to host a web server at 192.168.0.111:4444 at path /home/baba/GitHub/ethical-hacking-scripts/BugBountyHunter/Automation/command_injection.
+[+] You'll need to host a web server at 192.168.0.111:4444 at path /home/baba/GitHub/hunting-automated/command_injection.
 [...] sudo python3 -m http.server 80
 [*] Hit enter once done... 
 ```
