@@ -1,4 +1,4 @@
-## Command Injection Tool
+# Command Injection Tool
 
 This tool can be utilised when attacker has found a field with command injection possible.  It will automate the process and will provide you with a meterpreter shell.
 
@@ -39,7 +39,7 @@ optional arguments:
 ```
 - Output
 ```
-[+] You'll need to host a web server at 192.168.0.111:4444 at path /home/baba/GitHub/ethical-hacking-scripts/BugBountyHunter/Automation/command_injection.
+[+] You'll need to host a web server at 192.168.0.111:4444 at path /home/baba/GitHub/hunting-automated/command_injection.
 [...] sudo python3 -m http.server 80
 [*] Hit enter once done... 
 ```
